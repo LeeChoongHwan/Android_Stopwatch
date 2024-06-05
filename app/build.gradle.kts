@@ -7,6 +7,9 @@ android {
     namespace = "com.choong.stopwatch"
     compileSdk = 33
 
+    viewBinding {
+        enable = true
+    }
     defaultConfig {
         applicationId = "com.choong.stopwatch"
         minSdk = 24
