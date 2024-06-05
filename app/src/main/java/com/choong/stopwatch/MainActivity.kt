@@ -11,6 +11,25 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_main)
+
+        setOnclickListener()
+    }
+
+    private fun setOnclickListener() {
+        binding.btnStart.setOnClickListener {
+            startStopwatch()
+        }
+        binding.btnStop.setOnClickListener {
+            stopStopwatch()
+        }
+    }
+
+    private fun startStopwatch() {
+
+    }
+
+    private fun stopStopwatch() {
+
     }
 
 }
